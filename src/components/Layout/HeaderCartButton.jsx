@@ -53,7 +53,7 @@ const HeaderCartButton = () => {
       <span className={classes.icon}>
         <CartIcon />
       </span>
-      <span>Your Cart</span>
+      <span className={classes.label}>Your Cart</span>
       <span className={classes.badge}>{numberOfItemsInCart}</span>
     </button>
   );
