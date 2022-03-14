@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import PropTypes from "prop-types";
 
 // Contexts
-import { CartContext } from "../../context/cartContext";
+import CartContext from "../../context/cartContext";
 // Styles
 import classes from "./Modal.module.css";
 
