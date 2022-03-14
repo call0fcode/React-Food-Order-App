@@ -34,3 +34,6 @@ npm install
 ```shell
 npm run dev
 ```
+
+### Notes
+Production deployment of the application is done through [Netlify's continuous deployment](https://docs.netlify.com/site-deploys/create-deploys/#deploy-with-git) feature.
