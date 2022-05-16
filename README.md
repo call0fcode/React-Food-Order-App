@@ -4,6 +4,13 @@ Small practice created with [Vite](https://vitejs.dev/) and the corresponding Re
 consisting of a [SPA](https://en.wikipedia.org/wiki/Single-page_application) that simulates
 a food ordering app with some products and a shopping cart.
 
+The products (meals) are loaded from a database ([Firebase Realtime Database](https://firebase.google.com/docs/database)) and ordering meals
+from the cart will lead to the creation of an entry in the connected database with the user info
+and the ordered products as shown on the following image:
+
+![image](https://user-images.githubusercontent.com/19599325/168500295-caafcd10-51f3-4cfa-a302-26278105ce51.png)
+
+
 For the development of the app the following React features have been implemented:
 - React hooks:
   - useState
